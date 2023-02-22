@@ -5,7 +5,8 @@
 安装主题
 ```shell
 git clone https://github.com/Vinx911/grub2-theme-vinkvin.git
-sudo cp -r grub2-theme-vinkvin /usr/share/grub/themes/vinkvin
+sudo cp -r grub2-theme-vinkvin /usr/share/grub/themes/
+sudo mv /usr/share/grub/themes/grub2-theme-vinkvin /usr/share/grub/themes/vinkvin
 ```
 
 编辑`/etc/default/grub`文件
